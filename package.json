@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http.js",
+  "scripts": {
+    "start": "node index.js",
+    "startdb": "mongod --dbpath=/data"
+  },
+  "author": "Nandhakumar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "mongodb": "^3.6.2"
+  }
+}
